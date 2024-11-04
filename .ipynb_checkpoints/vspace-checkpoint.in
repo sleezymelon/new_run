@@ -4,9 +4,9 @@ sTrialName  obq_11_3
 
 sPrimaryFile   vpl.in
 
-
+dLuminosity  -0.0229
 sBodyFile  sun.in
-dMass [.394, .436, n2]
+dLuminosity  [-.0255, -.0206, n2]
 sBodyFile   700b.in
 sBodyFile   700c.in
 sBodyFile   700d.in

@@ -1,10 +1,9 @@
 # sun parameters
 sName        sun
-dMass 0.394
-dAge          1e7
-dObliquity    0
-dRotPeriod    -30                         # Rotation period, negative -> days
-dRadGyra      0.5                         # Radius of gyration (moment of inertia constant)
-sStellarModel baraffe                     # Stellar evolution model: `baraffe` or `none`
-saModules    stellar
-saOutputOrder Age -Luminosity -LXUVStellar -Radius Temperature
+dMass        .415
+dSemi        0
+dEcc         0
+dRadius      0.0019
+dLuminosity  -0.0229
+sStellarModel none            #sun does not change over time
+saModules    stellar          #use stellar module (needed for luminosity)

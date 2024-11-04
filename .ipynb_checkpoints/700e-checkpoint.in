@@ -12,7 +12,7 @@ dLongA       49.57854
 # bGRCorr      0
 saOutputOrder    Time PrecA -TGlobal AlbedoGlobal -FluxOutGlobal $
   -TotIceMass -TotIceFlow -TotIceBalance DeltaTime AreaIceCov Snowball Obliq $
-  IceBeltLand IceBeltSea Ecce SnowballLand Snowballsea
+  IceBeltLand IceBeltSea Ecce SnowballLand Snowballsea FluxInGlobal
 
 saGridOutput     Time -Latitude -TempLat AlbedoLat -AnnInsol -FluxIn -FluxOut IceMass -IceHeight DIceMassDt $
   -IceFlow -BedrockH -TempMaxLat -TempMinLat -FluxMerid -DivFlux
