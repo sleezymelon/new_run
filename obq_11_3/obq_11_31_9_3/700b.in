@@ -1,0 +1,17 @@
+sName        700b
+saModules    distorb
+dMass        3.00316726e-06
+dRadius      -1.00
+dRotPeriod   -1.00000
+dObliquity   23.5
+dSemi        -0.0677
+dEcc         0.075
+dInc         .4
+dLongP       77.45645
+dLongA       48.33167
+bGRCorr      0
+sOrbitModel   rd4
+#sOrbitModel  ll2
+saOutputOrder    Time Ecce SemiMajorAxis Inc ArgP LongA
+#bOverrideMaxEcc  1
+#dHaltMaxEcc     0.4

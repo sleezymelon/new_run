@@ -1,0 +1,17 @@
+sName        700c
+saModules    distorb
+dMass        1.83467e-5
+dRadius      -2.60
+dRotPeriod   -243.69
+dObliquity   177.36
+dSemi        -0.0929
+dEcc         0.068
+dInc         1.1
+dLongP       131.53298
+dLongA       76.68069
+# bGRCorr      0
+saOutputOrder    Time Ecce SemiMajorAxis Inc ArgP LongA
+# dDynEllip    1.3125e-5    #based on J2 from Yoder 1995
+# dPrecA       0.0
+#bOverrideMaxEcc  1
+#dHaltMaxEcc     0.4

@@ -1,0 +1,15 @@
+sSrcFolder  .
+sDestFolder obq_11_3
+sTrialName  obq_11_3
+
+sPrimaryFile   vpl.in
+
+
+sBodyFile  sun.in
+dMass [.394, .436, n2]
+sBodyFile   700b.in
+sBodyFile   700c.in
+sBodyFile   700d.in
+dObliquity [0,90,n10]
+sBodyFile   700e.in
+dObliquity [0,90,n10]

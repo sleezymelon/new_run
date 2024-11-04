@@ -1,0 +1,72 @@
+sName        700e
+saModules    distorb distrot poise
+dMass        2.5824e-6
+dRadius      -0.953
+dRotPeriod   -1.0259233
+dObliquity 80.0
+dSemi        -0.1340
+dEcc         0.059
+dInc         .4
+dLongP       336.04084
+dLongA       49.57854
+# bGRCorr      0
+saOutputOrder    Time PrecA -TGlobal AlbedoGlobal -FluxOutGlobal $
+  -TotIceMass -TotIceFlow -TotIceBalance DeltaTime AreaIceCov Snowball Obliq $
+  IceBeltLand IceBeltSea Ecce SnowballLand Snowballsea
+
+saGridOutput     Time -Latitude -TempLat AlbedoLat -AnnInsol -FluxIn -FluxOut IceMass -IceHeight DIceMassDt $
+  -IceFlow -BedrockH -TempMaxLat -TempMinLat -FluxMerid -DivFlux
+#dDynEllip    3.28e-3
+#dPrecA       0.0
+#bForcePrecRate    1
+#bOverrideMaxEcc  1
+#dHaltMaxEcc     0.4
+
+#maybe needed?
+iLatCellNum      150 
+dFixIceLat    1
+#bMEPDiff         1
+bIceSheets       1
+dInitIceLat      90.
+dInitIceHeight   0.
+#bHadley          1
+
+#set this to what??
+dDiffusion 0.58  
+
+#dPlanckA          203.3
+#dPlanckB         2.09
+#bCalcAB          0
+
+#initial global temp... use val found ig
+dTGlobalInit      14.85
+#dpCO2            0.00028
+#dSurfAlbedo       0.4
+#model to use
+sClimateModel     sea
+#number of years for a seasonal model???, why 4?
+iNumYears         4
+iNStepInYear      60
+#????
+bSeaIceModel      0
+#what is this/what is this value
+dIceDepRate       2.25e-5
+#earth numbers I persume
+dIceAlbedo   0.6
+dAlbedoLand   0.363
+dAlbedoWater      0.263
+
+#???
+iIceDt             5
+iReRunSeas         500
+#where do i find these values?
+#iAlbedoType        
+dHeatCapLand   1.55e7
+dHeatCapWater 4.428e6
+dMixingDepth 70
+dNuLandWater 0.8
+bElevFB 0
+#what is this for/how do I find?
+dRefHeight 400
+
+dSeasOutputTime 0
