@@ -22,7 +22,7 @@ Number of Digits After Decimal: 6
 Integration Method: Runge-Kutta4
 Direction: Forward
 Time Step: 3.155760e+07
-Stop Time: 3.155760e+10
+Stop Time: 1.577880e+11
 Output Interval: 3.155760e+09
 Use Variable Timestep: Yes
 dEta: 0.100000
@@ -425,13 +425,13 @@ Grid Output Order: Time[year] Latitude[deg] TempLat[Celsius] AlbedoLat[] AnnInso
 
 
 ---- FINAL SYSTEM PROPERTIES ----
-(Age) System Age [sec]: 3.155760e+10 
-(Time) Simulation Time [sec]: 3.155760e+10 
+(Age) System Age [sec]: 1.577880e+11 
+(Time) Simulation Time [sec]: 1.577880e+11 
 (TotAngMom) Total Angular Momentum [kg*m^2/sec]: 1.265416e+42 
 (TotEnergy) Total System Energy [kg*m^2/sec^2]: -9.589331e+40 
 (PotEnergy) Body's non-orbital Potential Energy [kg*m^2/sec^2]: -9.593727e+40 
-(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 4.407099e+37 
-(DeltaTime) Average Timestep Over Last Output Interval [sec]: 1.972350e+08 
+(KinEnergy) Body's non-orbital Kinetic Energy [kg*m^2/sec^2]: 4.406985e+37 
+(DeltaTime) Average Timestep Over Last Output Interval [sec]: 1.660926e+08 
 
 ----- BODY: sun ----
 Active Modules: STELLAR
@@ -440,11 +440,11 @@ Color: 000000
 (Mass) Mass [kg]: 8.251926e+29 
 (Radius) Radius [m]: 2.842360e+08 
 (RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.500000 
-(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.212043e+42 
-(RotVel) Rotational Velocity [m/sec]: 2.067015e+04 
+(RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 1.212027e+42 
+(RotVel) Rotational Velocity [m/sec]: 2.066989e+04 
 (BodyType) Type of Body (0 == planet) []: 0.000000 
-(RotRate) Rotational Frequency [/sec]: 7.272182e-05 
-(RotPer) Rotational Period [sec]: 8.640028e+04 
+(RotRate) Rotational Frequency [/sec]: 7.272087e-05 
+(RotPer) Rotational Period [sec]: 8.640140e+04 
 (Density) Average Density [kg/m^3]: 8578.862310 
 (HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.054771e+10 
 (HZLimRecVenus) Recent Venus HZ Limit [m]: 1.693247e+10 
@@ -455,15 +455,15 @@ Color: 000000
 (Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: -1.000000 
 (CriticalSemiMajorAxis) Holman & Wiegert (1999) P-type Critical Semi-major Axis [m]: -1.000000 
 (LXUVTot) Total XUV Luminosity [kg*m^2/sec^2/(m^2*sec)]: 8.807340e+21 
-(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 2.856946e+32 
-(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 3.928589e+36 
+(LostEnergy) Body's Total Lost Energy [kg*m^2/sec^2]: 1.428454e+33 
+(LostAngMom) Lost Angular Momentum due to Magnetic Braking [kg*m^2/sec]: 1.964282e+37 
 ----- STELLAR PARAMETERS (sun)------
 (Luminosity) Luminosity [kg*m^2/sec^3]: 8.807340e+24 
 (LXUVStellar) Base X-ray/XUV Luminosity [kg*m^2/sec^3]: 8.807340e+21 
 (Temperature) Effective Temperature [K]: 5778.000000 
 (LXUVFrac) Fraction of luminosity in XUV []: 0.001000 
-(RossbyNumber) Rossby Number []: 0.078260 
-(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 8.874195e-12 
+(RossbyNumber) Rossby Number []: 0.078261 
+(DRotPerDtStellar) Time Rate of Change of Rotation Period in STELLAR []: 8.874310e-12 
 Output Order:
 Grid Output Order:
 
@@ -478,40 +478,40 @@ Color: 000000
 (RotVel) Rotational Velocity [m/sec]: 463.828521 
 (BodyType) Type of Body (0 == planet) []: 0.000000 
 (Density) Average Density [kg/m^3]: 5494.449526 
-(HEcc) Poincare's h (=e*sin(varpi) []: 0.034285 
-(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.061220e+10 
+(HEcc) Poincare's h (=e*sin(varpi) []: -0.067045 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.062641e+10 
 (HZLimRecVenus) Recent Venus HZ Limit [m]: 1.693247e+10 
 (HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 2.211058e+10 
 (HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 2.240428e+10 
 (HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 3.797619e+10 
 (HZLimEarlyMars) Early Mars HZ Limit [m]: 4.143511e+10 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 6854.371384 
-(KEcc) Poincare's k (=e*cos(varpi) []: -0.071219 
-(Eccentricity) Orbital Eccentricity []: 0.079041 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 6859.096602 
+(KEcc) Poincare's k (=e*cos(varpi) []: 0.055868 
+(Eccentricity) Orbital Eccentricity []: 0.087271 
 (OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -1.623688e+34 
 (MeanMotion) Orbital Mean Motion [/sec]: 7.281324e-06 
 (OrbPeriod) Orbital Period [sec]: 8.629180e+05 
 (SemiMajorAxis) Semi-major Axis [m]: 1.012778e+10 
-(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 4.445916e+39 
-(ArgP) Body's argument of pericenter [rad]: 1.556510 
-(Inc) Body's Inclination [rad]: 0.019659 
-(LongA) Body's Longitude of ascending node [rad]: 1.136428 
-(MeanLongitude) Orbital Mean Longitude [rad]: 2.692938 
-(LongP) Body's Longitude of pericenter [rad]: 2.692938 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 4.442853e+39 
+(ArgP) Body's argument of pericenter [rad]: 4.509794 
+(Inc) Body's Inclination [rad]: 0.015913 
+(LongA) Body's Longitude of ascending node [rad]: 0.897305 
+(MeanLongitude) Orbital Mean Longitude [rad]: -0.876086 
+(LongP) Body's Longitude of pericenter [rad]: 5.407100 
 (TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -1.069511e+35 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -3.247375e+34 
 ----- DISTORB PARAMETERS (700b)------
-(Sinc) Body's sin(Inc/2) in DistOrb []: 0.009830 
-(Pinc) Body's Poincare p in DistOrb []: 0.008917 
-(Qinc) Body's Poincare q in DistOrb []: 0.004137 
-(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: -3.837749e-13 
-(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: -1.918782e-13 
-(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: -3.032653e-10 
-(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: 3.139726e-10 
-(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: -1.800691e-11 
-(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: -1.980862e-11 
-(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: -1.428561e-12 
-(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: 2.623391e-12 
+(Sinc) Body's sin(Inc/2) in DistOrb []: 0.007956 
+(Pinc) Body's Poincare p in DistOrb []: 0.006219 
+(Qinc) Body's Poincare q in DistOrb []: 0.004962 
+(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: -3.669918e-12 
+(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: -1.834901e-12 
+(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: -2.534882e-10 
+(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: 2.515632e-10 
+(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: 9.489596e-14 
+(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: 2.849828e-11 
+(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: -2.692180e-12 
+(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: 4.319882e-13 
 Output Order: Time[year] Eccentricity[] SemiMajorAxis[au] Inc[deg] ArgP[deg] LongA[deg]
 Grid Output Order:
 
@@ -526,40 +526,40 @@ Color: 000000
 (RotVel) Rotational Velocity [m/sec]: 4.948722 
 (BodyType) Type of Body (0 == planet) []: 0.000000 
 (Density) Average Density [kg/m^3]: 1909.776667 
-(HEcc) Poincare's h (=e*sin(varpi) []: -0.016729 
-(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.056085e+10 
+(HEcc) Poincare's h (=e*sin(varpi) []: 0.001143 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 2.059584e+10 
 (HZLimRecVenus) Recent Venus HZ Limit [m]: 1.693247e+10 
 (HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 2.211058e+10 
 (HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 2.240428e+10 
 (HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 3.797619e+10 
 (HZLimEarlyMars) Early Mars HZ Limit [m]: 4.143511e+10 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 3631.033295 
-(KEcc) Poincare's k (=e*cos(varpi) []: -0.031586 
-(Eccentricity) Orbital Eccentricity []: 0.035742 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 3637.213386 
+(KEcc) Poincare's k (=e*cos(varpi) []: 0.068317 
+(Eccentricity) Orbital Eccentricity []: 0.068327 
 (OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -7.228594e+34 
 (MeanMotion) Orbital Mean Motion [/sec]: 4.529787e-06 
 (OrbPeriod) Orbital Period [sec]: 1.387082e+06 
 (SemiMajorAxis) Semi-major Axis [m]: 1.389764e+10 
-(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 3.189543e+40 
-(ArgP) Body's argument of pericenter [rad]: 2.423896 
-(Inc) Body's Inclination [rad]: 0.006125 
-(LongA) Body's Longitude of ascending node [rad]: 1.204763 
-(MeanLongitude) Orbital Mean Longitude [rad]: -2.654526 
-(LongP) Body's Longitude of pericenter [rad]: 3.628659 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 3.184124e+40 
+(ArgP) Body's argument of pericenter [rad]: 4.529888 
+(Inc) Body's Inclination [rad]: 0.010748 
+(LongA) Body's Longitude of ascending node [rad]: 1.770021 
+(MeanLongitude) Orbital Mean Longitude [rad]: 0.016723 
+(LongP) Body's Longitude of pericenter [rad]: 0.016723 
 (TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -1.069511e+35 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.445719e+35 
 ----- DISTORB PARAMETERS (700c)------
-(Sinc) Body's sin(Inc/2) in DistOrb []: 0.003063 
-(Pinc) Body's Poincare p in DistOrb []: 0.002860 
-(Qinc) Body's Poincare q in DistOrb []: 0.001096 
-(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: 2.305310e-15 
-(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: 1.152650e-15 
-(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: 2.389239e-10 
-(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: -3.779537e-11 
-(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: 3.279089e-12 
-(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: 3.305029e-12 
-(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: 2.629685e-13 
-(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: -6.828315e-13 
+(Sinc) Body's sin(Inc/2) in DistOrb []: 0.005374 
+(Pinc) Body's Poincare p in DistOrb []: 0.005267 
+(Qinc) Body's Poincare q in DistOrb []: -0.001064 
+(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: 1.407324e-12 
+(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: 7.036517e-13 
+(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: -8.484418e-12 
+(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: 7.620590e-11 
+(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: 5.159434e-12 
+(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: -2.881544e-12 
+(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: 6.987570e-13 
+(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: -9.456802e-14 
 Output Order: Time[year] Eccentricity[] SemiMajorAxis[au] Inc[deg] ArgP[deg] LongA[deg]
 Grid Output Order:
 
@@ -568,11 +568,11 @@ Active Modules: DistOrb DistRot POISE
 Module Bit Sum: 305
 Color: 000000
 (Mass) Mass [kg]: 1.009046e+25 
-(Obliquity) Obliquity [rad]: 0.928327 
-(PrecA) Body's precession angle [rad]: 4.778863 
-(Xobl) Body's sin(obliquity)*cos(precession angle) []: 0.053181 
-(Yobl) Body's sin(obliquity)*sin(precession angle) []: -0.798850 
-(Zobl) Body's cos(obliquity) []: 0.599175 
+(Obliquity) Obliquity [rad]: 0.951894 
+(PrecA) Body's precession angle [rad]: 4.436506 
+(Xobl) Body's sin(obliquity)*cos(precession angle) []: -0.221871 
+(Yobl) Body's sin(obliquity)*sin(precession angle) []: -0.783715 
+(Zobl) Body's cos(obliquity) []: 0.580141 
 (Radius) Radius [m]: 6.843701e+06 
 (RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.500000 
 (RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 8.592094e+33 
@@ -582,94 +582,94 @@ Color: 000000
 (RotRate) Rotational Frequency [/sec]: 7.272205e-05 
 (RotPer) Rotational Period [sec]: 8.640000e+04 
 (Density) Average Density [kg/m^3]: 7515.346837 
-(HEcc) Poincare's h (=e*sin(varpi) []: 0.058186 
-(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.302936e+10 
+(HEcc) Poincare's h (=e*sin(varpi) []: 0.014571 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.300085e+10 
 (HZLimRecVenus) Recent Venus HZ Limit [m]: 1.693247e+10 
 (HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 2.211058e+10 
 (HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 2.240428e+10 
 (HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 3.797619e+10 
 (HZLimEarlyMars) Early Mars HZ Limit [m]: 4.143511e+10 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1177.446826 
-(KEcc) Poincare's k (=e*cos(varpi) []: -0.042461 
-(Eccentricity) Orbital Eccentricity []: 0.072031 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1174.870356 
+(KEcc) Poincare's k (=e*cos(varpi) []: 0.024661 
+(Eccentricity) Orbital Eccentricity []: 0.028644 
 (OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -1.137441e+34 
 (MeanMotion) Orbital Mean Motion [/sec]: 1.943637e-06 
 (OrbPeriod) Orbital Period [sec]: 3.232695e+06 
 (SemiMajorAxis) Semi-major Axis [m]: 2.442933e+10 
-(COPP) Climate Obliquity Precession Parameter []: 0.046584 
-(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.167385e+40 
-(ArgP) Body's argument of pericenter [rad]: 0.979588 
-(Inc) Body's Inclination [rad]: 0.025771 
-(LongA) Body's Longitude of ascending node [rad]: 1.221624 
-(MeanLongitude) Orbital Mean Longitude [rad]: 14.060099 
-(LongP) Body's Longitude of pericenter [rad]: 2.201212 
+(COPP) Climate Obliquity Precession Parameter []: 0.011868 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 1.169945e+40 
+(ArgP) Body's argument of pericenter [rad]: 6.015163 
+(Inc) Body's Inclination [rad]: 0.023593 
+(LongA) Body's Longitude of ascending node [rad]: 0.801685 
+(MeanLongitude) Orbital Mean Longitude [rad]: 7.653495 
+(LongP) Body's Longitude of pericenter [rad]: 0.533662 
 (TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -1.069511e+35 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -2.274882e+34 
 ----- DISTORB PARAMETERS (700d)------
-(Sinc) Body's sin(Inc/2) in DistOrb []: 0.012885 
-(Pinc) Body's Poincare p in DistOrb []: 0.012107 
-(Qinc) Body's Poincare q in DistOrb []: 0.004408 
-(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: -1.501573e-13 
-(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: -7.507240e-14 
-(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: -5.565619e-11 
-(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: 7.206909e-11 
-(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: 3.421651e-12 
-(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: -8.923460e-12 
-(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: -3.158875e-13 
-(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: 6.481729e-13 
+(Sinc) Body's sin(Inc/2) in DistOrb []: 0.011796 
+(Pinc) Body's Poincare p in DistOrb []: 0.008476 
+(Qinc) Body's Poincare q in DistOrb []: 0.008204 
+(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: -2.220991e-13 
+(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: -1.110418e-13 
+(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: -6.101492e-11 
+(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: 1.258512e-10 
+(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: 3.664157e-12 
+(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: -8.851380e-13 
+(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: -5.803746e-13 
+(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: 4.399355e-13 
 -----DISTROT PARAMETERS (700d)------
-(CassiniOne) First Cassini parameter (misalignment of Cassini state vectors) []: 0.287518 
-(CassiniTwo) Second Cassini parameter (alignment of Cassini state vectors []: 0.957775 
-(DOblDtDistRot) Body's dobl/dt in DistRot [rad]: -5.442491e-13 
-(DPrecADtDistRot) Body's dpA/dt in DistRot [rad/sec]: 1.553534e-10 
-(DXoblDtDistRot) Body's dXobl/dt in DistRot [/sec]: 1.240825e-10 
-(DYoblDtDistRot) Body's dYobl/dt in DistRot [/sec]: 8.587211e-12 
-(DZoblDtDistRot) Body's dZobl/dt in DistRot [/sec]: 4.357358e-13 
-(OblTimeDistRot) Obliquity timescale in DistRot [rad]: 5.772344e+12 
-(PrecATimeDistRot) Axial precession timescale in DistRot [sec]: 4.044446e+10 
-(XoblTimeDistRot) Xobl timescale in DistRot [/sec]: 8.059157e+09 
-(YoblTimeDistRot) Yobl timescale in DistRot [/sec]: 1.164522e+11 
-(ZoblTimeDistRot) Zobl timescale in DistRot [/sec]: 2.294969e+12 
+(CassiniOne) First Cassini parameter (misalignment of Cassini state vectors) []: 0.993664 
+(CassiniTwo) Second Cassini parameter (alignment of Cassini state vectors []: 0.112393 
+(DOblDtDistRot) Body's dobl/dt in DistRot [rad]: -1.356450e-12 
+(DPrecADtDistRot) Body's dpA/dt in DistRot [rad/sec]: 1.488489e-10 
+(DXoblDtDistRot) Body's dXobl/dt in DistRot [/sec]: 1.168695e-10 
+(DYoblDtDistRot) Body's dYobl/dt in DistRot [/sec]: -3.226809e-11 
+(DZoblDtDistRot) Body's dZobl/dt in DistRot [/sec]: 1.104850e-12 
+(OblTimeDistRot) Obliquity timescale in DistRot [rad]: 2.316040e+12 
+(PrecATimeDistRot) Axial precession timescale in DistRot [sec]: 4.221182e+10 
+(XoblTimeDistRot) Xobl timescale in DistRot [/sec]: 8.556552e+09 
+(YoblTimeDistRot) Yobl timescale in DistRot [/sec]: 3.099037e+10 
+(ZoblTimeDistRot) Zobl timescale in DistRot [/sec]: 9.051002e+11 
 (DynEllip) dynamical ellipticity of planet []: 0.003280 
-(PrecFNat) natural precession freq of planet [rad/sec]: 1.543356e-10 
+(PrecFNat) natural precession freq of planet [rad/sec]: 1.484542e-10 
 -----POISE PARAMETERS (700d)------
-(TGlobal) Global mean temperature from POISE [Celsius]: -40.961720 
+(TGlobal) Global mean temperature from POISE [Celsius]: -41.062927 
 (AlbedoGlobal) Global mean bond albedo from POISE []: 0.600000 
-(FluxInGlobal) Global mean flux in (insol*(1-albedo)) from POISE [kg*m^2/sec^2/(m^2*sec)]: 117.757122 
-(FluxOutGlobal) Global mean flux out from POISE [kg*m^2/sec^2/(m^2*sec)]: 117.690005 
+(FluxInGlobal) Global mean flux in (insol*(1-albedo)) from POISE [kg*m^2/sec^2/(m^2*sec)]: 117.487323 
+(FluxOutGlobal) Global mean flux out from POISE [kg*m^2/sec^2/(m^2*sec)]: 117.478482 
 (TotIceMass) Global total ice mass in ice sheets [kg]: 0.000000 
 (TotIceFlow) Global total ice flow in ice sheets (should = 0) [kg]: 0.000000 
 (TotIceBalance) Global total ice balance in ice sheets (this time step) [kg]: 0.000000 
 (SkipSeas) Is Seasonal model skipped due to RGH or snowball? []: 0.000000 
 (AreaIceCov) Fractional area ice covered []: 1.000000 
 (Latitude) Latitude. [deg]: 83.402352 
-(TempLat) Surface temperature by latitude. [Celsius]: -41.079594 
+(TempLat) Surface temperature by latitude. [Celsius]: -40.734202 
 (AlbedoLat) Surface albedo by latitude. []: 0.600000 
-(AnnInsol) Annual insolation by latitude. [W/m^2]: 299.421497 
-(FluxMerid) Total meridional (northward) flux by latitude [PW]: -0.038968 
-(FluxIn) Incoming flux by latitude [W/m^2]: 119.768599 
-(FluxOut) Outgoing (spaceward) flux by latitude [W/m^2]: 117.443649 
-(DivFlux) Divergence of flux (flow into adjacent cells) by latitude [W/m^2]: 2.289753 
+(AnnInsol) Annual insolation by latitude. [W/m^2]: 304.091693 
+(FluxMerid) Total meridional (northward) flux by latitude [PW]: -0.060000 
+(FluxIn) Incoming flux by latitude [W/m^2]: 121.636677 
+(FluxOut) Outgoing (spaceward) flux by latitude [W/m^2]: 118.165518 
+(DivFlux) Divergence of flux (flow into adjacent cells) by latitude [W/m^2]: 3.525566 
 (IceMass) Mass of ice sheets/area by latitude []: 0.000000 
 (IceHeight) Height of ice sheets [m]: 0.000000 
 (DIceMassDt) derivative of mass of ice sheets/area by latitude [m]: 0.000000 
 (IceFlow) flow of ice sheets/area by latitude [m/s]: 0.000000 
-(EnergyResL) Energy residual on land [kg*m^2/sec^2/(m^2*sec)]: 1.250555e-12 
-(EnergyResW) Energy residual over water [kg*m^2/sec^2/(m^2*sec)]: -5.293543e-11 
+(EnergyResL) Energy residual on land [kg*m^2/sec^2/(m^2*sec)]: 3.410605e-13 
+(EnergyResW) Energy residual over water [kg*m^2/sec^2/(m^2*sec)]: -5.449863e-11 
 (BedrockH) height/depth of bedrock [m]: 0.000000 
-(TempLandLat) Land surface temperature by latitude. [sec]: 231.928523 
-(TempWaterLat) Water surface temperature by latitude. [sec]: 231.916225 
+(TempLandLat) Land surface temperature by latitude. [sec]: 232.260652 
+(TempWaterLat) Water surface temperature by latitude. [sec]: 232.268449 
 (AlbedoLandLat) Land surface albedo by latitude. []: 0.600000 
 (AlbedoWaterLat) Water surface albedo by latitude. []: 0.600000 
-(TempMinLat) Minimum surface temperature over a year by latitude. [Celsius]: -43.395390 
-(TempMaxLat) Maximum surface temperature over a year by latitude. [Celsius]: -38.799374 
+(TempMinLat) Minimum surface temperature over a year by latitude. [Celsius]: -43.096499 
+(TempMaxLat) Maximum surface temperature over a year by latitude. [Celsius]: -38.174616 
 (Snowball) Is the planet in a snowball state? []: 1.000000 
 (PlanckBAvg) Annually averaged Planck B coeff []: 2.090000 
 (IceAccum) Ice growth per orbit (accumulation only) []: 0.000000 
 (IceAblate) ice decay per orbit (ablation only) []: 0.000000 
-(TempMaxLand) Maximum surface temperature on land [sec]: 238.045144 
-(TempMaxWater) Maximum surface temperature on water [sec]: 232.229274 
-(PeakInsol) Peak insolation by latitude. [kg*m^2/sec^2/(m^2*sec)]: 839.745202 
+(TempMaxLand) Maximum surface temperature on land [sec]: 239.133450 
+(TempMaxWater) Maximum surface temperature on water [sec]: 232.615930 
+(PeakInsol) Peak insolation by latitude. [kg*m^2/sec^2/(m^2*sec)]: 924.359433 
 (IceCapNorthLand) Does the planet have a northern polar ice cap on land? []: 0.000000 
 (IceCapNorthSea) Does the planet have a northern polar sea ice cap []: 0.000000 
 (IceCapSouthLand) Does the planet have a southern polar ice cap on land? []: 0.000000 
@@ -695,11 +695,11 @@ Active Modules: DistOrb DistRot POISE
 Module Bit Sum: 305
 Color: 000000
 (Mass) Mass [kg]: 5.134885e+24 
-(Obliquity) Obliquity [rad]: 0.149644 
-(PrecA) Body's precession angle [rad]: 2.326203 
-(Xobl) Body's sin(obliquity)*cos(precession angle) []: -0.102211 
-(Yobl) Body's sin(obliquity)*sin(precession angle) []: 0.108533 
-(Zobl) Body's cos(obliquity) []: 0.988824 
+(Obliquity) Obliquity [rad]: 0.201309 
+(PrecA) Body's precession angle [rad]: 5.478653 
+(Xobl) Body's sin(obliquity)*cos(precession angle) []: 0.138656 
+(Yobl) Body's sin(obliquity)*sin(precession angle) []: -0.144067 
+(Zobl) Body's cos(obliquity) []: 0.979805 
 (Radius) Radius [m]: 6.078329e+06 
 (RadGyra) Radius of Gyration/Moment of Inertia Constant []: 0.500000 
 (RotAngMom) Rotational Angular Momentum [kg*m^2/sec]: 3.361944e+33 
@@ -709,94 +709,94 @@ Color: 000000
 (RotRate) Rotational Frequency [/sec]: 7.088449e-05 
 (RotPer) Rotational Period [sec]: 8.863977e+04 
 (Density) Average Density [kg/m^3]: 5458.703163 
-(HEcc) Poincare's h (=e*sin(varpi) []: -0.029709 
-(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.735612e+10 
+(HEcc) Poincare's h (=e*sin(varpi) []: 0.013390 
+(HZLimitDryRunaway) Semi-major axis of Dry Runaway HZ Limit [m]: 1.724967e+10 
 (HZLimRecVenus) Recent Venus HZ Limit [m]: 1.693247e+10 
 (HZLimRunaway) Runaway Greenhouse HZ Limit [m]: 2.211058e+10 
 (HZLimMoistGreenhouse) Moist Greenhouse HZ Limit [m]: 2.240428e+10 
 (HZLimMaxGreenhouse) Maximum Greenhouse HZ Limit [m]: 3.797619e+10 
 (HZLimEarlyMars) Early Mars HZ Limit [m]: 4.143511e+10 
-(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1757.600358 
-(KEcc) Poincare's k (=e*cos(varpi) []: -0.120027 
-(Eccentricity) Orbital Eccentricity []: 0.123650 
+(Instellation) Orbit-averaged INcident STELLar radiATION [kg*m^2/sec^2/(m^2*sec)]: 1747.266966 
+(KEcc) Poincare's k (=e*cos(varpi) []: -0.058551 
+(Eccentricity) Orbital Eccentricity []: 0.060063 
 (OrbEnergy) Body's Total Orbital Energy [kg*m^2/sec^2]: -7.053917e+33 
 (MeanMotion) Orbital Mean Motion [/sec]: 2.614785e-06 
 (OrbPeriod) Orbital Period [sec]: 2.402946e+06 
 (SemiMajorAxis) Semi-major Axis [m]: 2.004611e+10 
-(COPP) Climate Obliquity Precession Parameter []: -0.004429 
-(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 5.354005e+39 
-(ArgP) Body's argument of pericenter [rad]: 1.984406 
-(Inc) Body's Inclination [rad]: 0.017878 
-(LongA) Body's Longitude of ascending node [rad]: 1.399833 
-(MeanLongitude) Orbital Mean Longitude [rad]: 7.910332 
-(LongP) Body's Longitude of pericenter [rad]: 3.384238 
+(COPP) Climate Obliquity Precession Parameter []: 0.002677 
+(OrbAngMom) Orbital Angular Momentum [kg*m^2/sec]: 5.385668e+39 
+(ArgP) Body's argument of pericenter [rad]: 2.204646 
+(Inc) Body's Inclination [rad]: 0.014120 
+(LongA) Body's Longitude of ascending node [rad]: 0.712126 
+(MeanLongitude) Orbital Mean Longitude [rad]: 14.089916 
+(LongP) Body's Longitude of pericenter [rad]: 2.916772 
 (TotOrbEnergy) System's Total Orbital Energy [kg*m^2/sec^2]: -1.069511e+35 
 (OrbPotEnergy) Body's Orbital Potential Energy [kg*m^2/sec^2]: -1.410783e+34 
 ----- DISTORB PARAMETERS (700e)------
-(Sinc) Body's sin(Inc/2) in DistOrb []: 0.008939 
-(Pinc) Body's Poincare p in DistOrb []: 0.008809 
-(Qinc) Body's Poincare q in DistOrb []: 0.001521 
-(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: 7.901440e-13 
-(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: 3.950562e-13 
-(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: -4.707442e-11 
-(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: 2.328249e-10 
-(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: -2.607210e-11 
-(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: 1.448515e-11 
-(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: 3.177055e-13 
-(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: 4.818756e-13 
+(Sinc) Body's sin(Inc/2) in DistOrb []: 0.007060 
+(Pinc) Body's Poincare p in DistOrb []: 0.004613 
+(Qinc) Body's Poincare q in DistOrb []: 0.005344 
+(DIncDtDistOrb) Body's inclination derivative in DistOrb [rad/sec]: -1.976966e-12 
+(DSincDtDistOrb) Body's sin(Inc/2) derivative in DistOrb [/sec]: -9.884583e-13 
+(DLongADtDistOrb) Body's longitude of ascending node derivative in DistOrb [rad/sec]: -4.389772e-13 
+(DLongPDtDistOrb) Body's longitude of pericenter derivative in DistOrb [rad/sec]: 4.818860e-10 
+(DHeccDtDistOrb) Body's Poincare h derivative in DistOrb [/sec]: -2.915571e-11 
+(DKeccDtDistOrb) Body's Poincare k in DistOrb [/sec]: -2.339434e-12 
+(DPincDtDistOrb) Body's Poincare p in DistOrb [/sec]: -6.482489e-13 
+(DQincDtDistOrb) Body's Poincare q in DistOrb [/sec]: -7.462123e-13 
 -----DISTROT PARAMETERS (700e)------
-(CassiniOne) First Cassini parameter (misalignment of Cassini state vectors) []: 0.821037 
-(CassiniTwo) Second Cassini parameter (alignment of Cassini state vectors []: -0.570875 
-(DOblDtDistRot) Body's dobl/dt in DistRot [rad]: -1.123316e-12 
-(DPrecADtDistRot) Body's dpA/dt in DistRot [rad/sec]: 4.784624e-10 
-(DXoblDtDistRot) Body's dXobl/dt in DistRot [/sec]: -5.116766e-11 
-(DYoblDtDistRot) Body's dYobl/dt in DistRot [/sec]: -4.971274e-11 
-(DZoblDtDistRot) Body's dZobl/dt in DistRot [/sec]: 1.674705e-13 
-(OblTimeDistRot) Obliquity timescale in DistRot [rad]: 2.796714e+12 
-(PrecATimeDistRot) Axial precession timescale in DistRot [sec]: 1.313204e+10 
-(XoblTimeDistRot) Xobl timescale in DistRot [/sec]: 1.954359e+10 
-(YoblTimeDistRot) Yobl timescale in DistRot [/sec]: 2.011557e+10 
-(ZoblTimeDistRot) Zobl timescale in DistRot [/sec]: 5.971201e+12 
+(CassiniOne) First Cassini parameter (misalignment of Cassini state vectors) []: 0.934259 
+(CassiniTwo) Second Cassini parameter (alignment of Cassini state vectors []: 0.356595 
+(DOblDtDistRot) Body's dobl/dt in DistRot [rad]: -1.969104e-12 
+(DPrecADtDistRot) Body's dpA/dt in DistRot [rad/sec]: 4.666316e-10 
+(DXoblDtDistRot) Body's dXobl/dt in DistRot [/sec]: 6.588817e-11 
+(DYoblDtDistRot) Body's dYobl/dt in DistRot [/sec]: 6.609158e-11 
+(DZoblDtDistRot) Body's dZobl/dt in DistRot [/sec]: 3.937262e-13 
+(OblTimeDistRot) Obliquity timescale in DistRot [rad]: 1.595443e+12 
+(PrecATimeDistRot) Axial precession timescale in DistRot [sec]: 1.346498e+10 
+(XoblTimeDistRot) Xobl timescale in DistRot [/sec]: 1.517723e+10 
+(YoblTimeDistRot) Yobl timescale in DistRot [/sec]: 1.513052e+10 
+(ZoblTimeDistRot) Zobl timescale in DistRot [/sec]: 2.539836e+12 
 (DynEllip) dynamical ellipticity of planet []: 0.003280 
-(PrecFNat) natural precession freq of planet [rad/sec]: 4.802187e-10 
+(PrecFNat) natural precession freq of planet [rad/sec]: 4.674952e-10 
 -----POISE PARAMETERS (700e)------
-(TGlobal) Global mean temperature from POISE [Celsius]: 52.434148 
-(AlbedoGlobal) Global mean bond albedo from POISE []: 0.297434 
-(FluxInGlobal) Global mean flux in (insol*(1-albedo)) from POISE [kg*m^2/sec^2/(m^2*sec)]: 313.131518 
-(FluxOutGlobal) Global mean flux out from POISE [kg*m^2/sec^2/(m^2*sec)]: 312.887368 
+(TGlobal) Global mean temperature from POISE [Celsius]: 51.569822 
+(AlbedoGlobal) Global mean bond albedo from POISE []: 0.297793 
+(FluxInGlobal) Global mean flux in (insol*(1-albedo)) from POISE [kg*m^2/sec^2/(m^2*sec)]: 311.159954 
+(FluxOutGlobal) Global mean flux out from POISE [kg*m^2/sec^2/(m^2*sec)]: 311.080928 
 (TotIceMass) Global total ice mass in ice sheets [kg]: 0.000000 
 (TotIceFlow) Global total ice flow in ice sheets (should = 0) [kg]: 0.000000 
 (TotIceBalance) Global total ice balance in ice sheets (this time step) [kg]: 0.000000 
 (SkipSeas) Is Seasonal model skipped due to RGH or snowball? []: 0.000000 
 (AreaIceCov) Fractional area ice covered []: 0.000000 
 (Latitude) Latitude. [deg]: 83.380372 
-(TempLat) Surface temperature by latitude. [Celsius]: 12.956523 
-(AlbedoLat) Surface albedo by latitude. []: 0.374164 
-(AnnInsol) Annual insolation by latitude. [W/m^2]: 95.892485 
-(FluxMerid) Total meridional (northward) flux by latitude [PW]: 2.277858 
-(FluxIn) Incoming flux by latitude [W/m^2]: 61.289839 
-(FluxOut) Outgoing (spaceward) flux by latitude [W/m^2]: 230.379133 
-(DivFlux) Divergence of flux (flow into adjacent cells) by latitude [W/m^2]: -169.105961 
+(TempLat) Surface temperature by latitude. [Celsius]: 14.027033 
+(AlbedoLat) Surface albedo by latitude. []: 0.372887 
+(AnnInsol) Annual insolation by latitude. [W/m^2]: 119.954324 
+(FluxMerid) Total meridional (northward) flux by latitude [PW]: 2.083696 
+(FluxIn) Incoming flux by latitude [W/m^2]: 77.555753 
+(FluxOut) Outgoing (spaceward) flux by latitude [W/m^2]: 232.616499 
+(DivFlux) Divergence of flux (flow into adjacent cells) by latitude [W/m^2]: -154.691577 
 (IceMass) Mass of ice sheets/area by latitude []: 0.000000 
 (IceHeight) Height of ice sheets [m]: 0.000000 
 (DIceMassDt) derivative of mass of ice sheets/area by latitude [m]: 0.000000 
 (IceFlow) flow of ice sheets/area by latitude [m/s]: 0.000000 
-(EnergyResL) Energy residual on land [kg*m^2/sec^2/(m^2*sec)]: -2.344791e-13 
-(EnergyResW) Energy residual over water [kg*m^2/sec^2/(m^2*sec)]: -9.109158e-12 
+(EnergyResL) Energy residual on land [kg*m^2/sec^2/(m^2*sec)]: -1.062261e-12 
+(EnergyResW) Energy residual over water [kg*m^2/sec^2/(m^2*sec)]: -5.798029e-12 
 (BedrockH) height/depth of bedrock [m]: 0.000000 
-(TempLandLat) Land surface temperature by latitude. [sec]: 282.958053 
-(TempWaterLat) Water surface temperature by latitude. [sec]: 287.501189 
-(AlbedoLandLat) Land surface albedo by latitude. []: 0.440164 
-(AlbedoWaterLat) Water surface albedo by latitude. []: 0.340164 
-(TempMinLat) Minimum surface temperature over a year by latitude. [Celsius]: 12.117263 
-(TempMaxLat) Maximum surface temperature over a year by latitude. [Celsius]: 13.682206 
+(TempLandLat) Land surface temperature by latitude. [sec]: 283.897869 
+(TempWaterLat) Water surface temperature by latitude. [sec]: 288.639026 
+(AlbedoLandLat) Land surface albedo by latitude. []: 0.438887 
+(AlbedoWaterLat) Water surface albedo by latitude. []: 0.338887 
+(TempMinLat) Minimum surface temperature over a year by latitude. [Celsius]: 13.046899 
+(TempMaxLat) Maximum surface temperature over a year by latitude. [Celsius]: 14.942568 
 (Snowball) Is the planet in a snowball state? []: 0.000000 
 (PlanckBAvg) Annually averaged Planck B coeff []: 2.090000 
 (IceAccum) Ice growth per orbit (accumulation only) []: 0.000000 
 (IceAblate) ice decay per orbit (ablation only) []: 0.000000 
-(TempMaxLand) Maximum surface temperature on land [sec]: 284.881837 
-(TempMaxWater) Maximum surface temperature on water [sec]: 287.609668 
-(PeakInsol) Peak insolation by latitude. [kg*m^2/sec^2/(m^2*sec)]: 284.945074 
+(TempMaxLand) Maximum surface temperature on land [sec]: 286.316339 
+(TempMaxWater) Maximum surface temperature on water [sec]: 288.781990 
+(PeakInsol) Peak insolation by latitude. [kg*m^2/sec^2/(m^2*sec)]: 339.129154 
 (IceCapNorthLand) Does the planet have a northern polar ice cap on land? []: 0.000000 
 (IceCapNorthSea) Does the planet have a northern polar sea ice cap []: 0.000000 
 (IceCapSouthLand) Does the planet have a southern polar ice cap on land? []: 0.000000 

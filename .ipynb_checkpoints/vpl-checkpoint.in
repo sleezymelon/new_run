@@ -15,5 +15,5 @@ saBodyFiles   sun.in 700b.in 700c.in 700d.in 700e.in
 bDoForward    1
 bVarDt        1
 dEta          0.1
-dStopTime     1e3
+dStopTime     5e3
 dOutputTime   100
