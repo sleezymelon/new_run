@@ -1,7 +1,7 @@
 import glob
 import os
 home = os.getcwd()
-directory_list = glob.glob("obq_11_3/obq*")
+directory_list = glob.glob("obq_11_4/obq*")
 for item in directory_list:
     os.chdir(item)
     print("Entering: "+ item)

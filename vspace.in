@@ -1,15 +1,15 @@
 sSrcFolder  .
-sDestFolder obq_11_3
-sTrialName  obq_11_3
+sDestFolder obq_11_4
+sTrialName  obq_11_4
 
 sPrimaryFile   vpl.in
 
 dLuminosity  -0.0229
 sBodyFile  sun.in
-dLuminosity  [-.0255, -.0206, n2]
+dLuminosity  [-.0255, -.0206, n4]
 sBodyFile   700b.in
 sBodyFile   700c.in
 sBodyFile   700d.in
-dObliquity [0,90,n10]
+dObliquity [0,90,n5]
 sBodyFile   700e.in
-dObliquity [0,90,n10]
+dObliquity [0,90,n5]
